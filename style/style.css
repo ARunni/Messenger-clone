@@ -143,7 +143,7 @@ main
     .fotright {
         margin: auto;
         align-items: center;
-        width: 60%;
+        width: 80%;
     }
     .bottom {
         font-size: 13px;
@@ -160,6 +160,11 @@ main
     .image1{
         margin-top: 10%;
     }
+    .fotright{
+        margin: 0;
+        width: 100%;
+        font-size: 90%;
+       }
   }
   @media screen and (max-width: 350px) {
     .btnimg{
@@ -184,11 +189,11 @@ main
    .fotright{
     margin: 0;
     width: 100%;
+    font-size: 90%;
 
    }
-   /* .metaImg img{
-    width: 60px;
-   } */
+   
+   
    .fotright button {
     font-size: x-small;
     padding: 3% 3%;
@@ -197,22 +202,16 @@ main
         width: 100%;
 
   }
+  .forget-pass{
+    font-size: 90%;
+  }
+  .submit{
+    
+        font-size: xx-small;
+    
+  }
 }
-  /* @media screen and (max-width: 800px)
-  {
-
-    .text h1{
-        text-align:left;
-         font-size: 40px;
-    }
-    .subheading p
-    {
-    font-size: 15px;
-    text-align:left ;
-    }
-  } */
-
-  /* @media screen and (max-width: 800px) */
+  
 
 
 
