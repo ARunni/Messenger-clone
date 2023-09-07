@@ -18,6 +18,7 @@ main
  {
     color: transparent;
     -webkit-background-clip: text;
+
     background-image:linear-gradient(82.32deg, #0099FF -9.17%, #A033FF 47.19%, #FF5280 77.23%, #FF7061 83.26%);
     font-size: 70px;
     font-weight: bolder;
@@ -94,7 +95,7 @@ main
     }
     .heading
     { 
-        padding-left: 20%;
+        padding-left: 14%;
         height: 550px;
     }
     .form-control
@@ -127,15 +128,58 @@ main
     .fotright
     {
         font-size: 13px;
-        width: 70%;
+        width: 50%;
         height: 30px;
-        margin-left: 10rem;
+        margin-left: 30%;
+        
     }
     .btn{
         font-size:small;
     }
   }
-  @media screen and (max-width: 800px)
+
+  @media screen and (max-width: 767px) {
+    
+  }
+  @media screen and (max-width: 450px) {
+    .image1{
+        margin-top: 10%;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .btnimg{
+        margin-top: 5%;
+    }
+    .image1 {
+        width: 100%;
+     margin: 10% 2%;
+     
+   }
+   .heading{
+    height: auto;
+   }
+   .btnimgd{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .fotright{
+    margin: 0;
+    width: 100%;
+
+   }
+   .meta img{
+    width: 60px;
+   }
+   .fotright button {
+    font-size: x-small;
+    }
+
+  }
+  /* @media screen and (max-width: 800px)
   {
 
     .text h1{
@@ -147,9 +191,9 @@ main
     font-size: 15px;
     text-align:left ;
     }
-  }
+  } */
 
- 
+  /* @media screen and (max-width: 800px) */
 
 
 
