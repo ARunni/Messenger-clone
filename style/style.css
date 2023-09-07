@@ -72,6 +72,7 @@ main
     font-size: .89rem;
    
 }
+
 .bottom
 {
     margin-top: 10px;
@@ -139,8 +140,22 @@ main
   }
 
   @media screen and (max-width: 767px) {
-    
+    .fotright {
+        margin: auto;
+        align-items: center;
+        width: 60%;
+    }
+    .bottom {
+        font-size: 13px;
+        text-align: center;
+        width: auto;
+        margin: auto;
+    }
+    .text h1 {
+        text-align: left;
   }
+}
+
   @media screen and (max-width: 450px) {
     .image1{
         margin-top: 10%;
@@ -171,14 +186,18 @@ main
     width: 100%;
 
    }
-   .meta img{
+   /* .metaImg img{
     width: 60px;
-   }
+   } */
    .fotright button {
     font-size: x-small;
+    padding: 3% 3%;
     }
+    .form-control {
+        width: 100%;
 
   }
+}
   /* @media screen and (max-width: 800px)
   {
 
